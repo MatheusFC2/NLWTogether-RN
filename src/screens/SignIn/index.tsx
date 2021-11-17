@@ -15,7 +15,7 @@ export default function SingIn() {
   return (
     <View style={styles.container}>
       <Image 
-        source={Illustration} 
+        source={Illustration}
         style={styles.image}
         resizeMode="stretch"
       />
@@ -31,7 +31,7 @@ export default function SingIn() {
           Crie grupos para jogar seus games {'\n'}
           favoritos com seus amigos
         </Text>
-        
+                
         <ButtonIcon 
           title="Entrar com Discord"
           activeOpacity={0.7}
